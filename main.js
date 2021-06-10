@@ -167,6 +167,14 @@ const findOdd = (xs) => xs.reduce((a, b) => a ^ b)
 
 // Thats why XOR operation can resolve this kind of problem. but only with this particulary prerequisites.
 
+/* Explanation: 
+    Rob, definitely don't break your brain on this y'all. I had to give up on understanding the real use cases for XOR
+    beyond like a simple true/false chain. Unless you plan to go on to data science, this is a skipper.
+    
+    "The closes use I've seen xor used for is like: say there are a bunch of tags/permissions/roles, you can store the precsence of each in a single variable and pefomr and xor 
+    to see if what you're chekcing for is true/false, but yeah, it's low level. if you're tring to really save bandwidth in a realtime game, maybe" - Rascal_Two
+*/
+
 // 5) could you do a quick regex tutorial maybe with match() or replace() 
 // this makes sense:
 // let str = 'Twas the night before Xmas...';
